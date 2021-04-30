@@ -1,0 +1,40 @@
+[30-Apr-2021 06:36:01 UTC] PHP Parse error:  syntax error, unexpected 'greet' (T_STRING) in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 2
+[30-Apr-2021 06:36:41 UTC] PHP Parse error:  syntax error, unexpected 'greet' (T_STRING) in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 2
+[30-Apr-2021 06:39:28 UTC] PHP Parse error:  syntax error, unexpected 'greet' (T_STRING) in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 2
+[30-Apr-2021 06:40:54 UTC] PHP Parse error:  syntax error, unexpected 'greet' (T_STRING) in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 2
+[30-Apr-2021 06:41:24 UTC] PHP Warning:  Use of undefined constant hlloo - assumed 'hlloo' (this will throw an Error in a future version of PHP) in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 2
+[30-Apr-2021 06:41:24 UTC] PHP Stack trace:
+[30-Apr-2021 06:41:24 UTC] PHP   1. {main}() C:\Users\Lenovo\Local Sites\fictional-university\app\public\index.php:0
+[30-Apr-2021 06:41:24 UTC] PHP   2. require() C:\Users\Lenovo\Local Sites\fictional-university\app\public\index.php:17
+[30-Apr-2021 06:41:24 UTC] PHP   3. require_once() C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-blog-header.php:19
+[30-Apr-2021 06:41:24 UTC] PHP   4. include() C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-includes\template-loader.php:106
+[30-Apr-2021 06:43:08 UTC] PHP Parse error:  syntax error, unexpected 'greet' (T_STRING) in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 2
+[30-Apr-2021 06:56:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function bloginfo() in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 10
+[30-Apr-2021 06:57:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function bloginfo() in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 10
+[30-Apr-2021 06:57:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function bloginfo() in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 10
+[30-Apr-2021 06:58:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function bloginfo() in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 10
+[30-Apr-2021 06:58:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function bloginfo() in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 10
+[30-Apr-2021 06:58:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function bloginfo() in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 10
+[30-Apr-2021 06:58:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function bloginfo() in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 10
+[30-Apr-2021 07:12:03 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 10
