@@ -38,3 +38,17 @@ Stack trace:
 #0 {main}
   thrown in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 10
 [30-Apr-2021 07:12:03 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 10
+[30-Apr-2021 07:34:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_posts() in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:4
+Stack trace:
+#0 C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lenovo...')
+#2 C:\Users\Lenovo\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\Lenovo...')
+#3 {main}
+  thrown in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 4
+[30-Apr-2021 07:36:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_posts() in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:4
+Stack trace:
+#0 C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lenovo...')
+#2 C:\Users\Lenovo\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\Lenovo...')
+#3 {main}
+  thrown in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 4
