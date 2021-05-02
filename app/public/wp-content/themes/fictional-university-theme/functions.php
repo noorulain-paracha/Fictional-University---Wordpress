@@ -12,5 +12,11 @@ function university_files() {
 // 'first_argument' what type of instructions we are giving it
 // 'second argument' name of the function we want to run */
 add_action('wp_enqueue_scripts','university_files'); 
- 
+
+/* Adding title of the browser tab*/
+function university_features() {
+    add_theme_support('title-tag');
+}
+
+add_action('after_setup_theme','university_features');
 ?>
