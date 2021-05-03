@@ -106,3 +106,5 @@ Stack trace:
 #2 C:\Users\Lenovo\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\Lenovo...')
 #3 {main}
   thrown in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 22
+[03-May-2021 11:14:12 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\archive.php on line 12
+[03-May-2021 11:14:49 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\archive.php on line 12

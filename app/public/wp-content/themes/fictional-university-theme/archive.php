@@ -4,9 +4,9 @@ get_header(); ?>
 <div class="page-banner">
     <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/ocean.jpg')?>);"></div>
     <div class="page-banner__content container container--narrow">
-      <h1 class="page-banner__title">Welcome to our Blog </h1>
+      <h1 class="page-banner__title"><?php the_archive_title(); ?> </h1>
       <div class="page-banner__intro">
-        <p>Keep up with out latest news </p>
+        <p> <?php the_archive_description(); ?></p>
       </div>
     </div>  
   </div>
@@ -19,7 +19,7 @@ get_header(); ?>
          <h2 class="headline headline--medium headline--post-title"> <a href="<?php the_permalink(); ?>"> <?php the_title(); ?> </h2>
       
       <div class="metabox"> 
-      <p>Poster by <?php the_author_posts_link(); ?> on <?php the_time('j.n.y'); ?> in <?php echo get_the_category_list(', ');?> </p>
+      <p>Poster by <?php the_author_posts_link(); ?> on <?php the_time('n.j.y'); ?> in <?php echo get_the_category_list(', ');?> </p>
       </div>
 
       <div class="generic-content">
