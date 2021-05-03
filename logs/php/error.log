@@ -81,3 +81,19 @@ Stack trace:
 [02-May-2021 22:10:11 UTC] PHP   6. do_action() C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-settings.php:538
 [02-May-2021 22:10:11 UTC] PHP   7. WP_Hook->do_action() C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-includes\plugin.php:484
 [02-May-2021 22:10:11 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:316
+[03-May-2021 01:43:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 22 and exactly 1 expected in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-includes\post.php:7329
+Stack trace:
+#0 C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php(22): wp_get_post_parent_id()
+#1 C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lenovo...')
+#2 C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lenovo...')
+#3 C:\Users\Lenovo\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\Lenovo...')
+#4 {main}
+  thrown in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-includes\post.php on line 7329
+[03-May-2021 01:44:33 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 22 and exactly 1 expected in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-includes\post.php:7329
+Stack trace:
+#0 C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php(22): wp_get_post_parent_id()
+#1 C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Lenovo...')
+#2 C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Lenovo...')
+#3 C:\Users\Lenovo\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\Lenovo...')
+#4 {main}
+  thrown in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-includes\post.php on line 7329
