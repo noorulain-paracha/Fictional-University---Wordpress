@@ -108,3 +108,15 @@ Stack trace:
   thrown in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 22
 [03-May-2021 11:14:12 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\archive.php on line 12
 [03-May-2021 11:14:49 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\archive.php on line 12
+[04-May-2021 01:00:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue_styles() in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:17
+Stack trace:
+#0 C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(292): university_files('')
+#1 C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-includes\script-loader.php(2027): do_action('wp_enqueue_scri...')
+#4 C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(292): wp_enqueue_scripts('')
+#5 C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Lenovo\Local Sites\fictional-university\app\publi in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 17
+[04-May-2021 08:06:59 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting ')' in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 35
+[04-May-2021 08:07:07 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting ')' in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 35
+[04-May-2021 08:07:08 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting ')' in C:\Users\Lenovo\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 35
