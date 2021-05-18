@@ -70,7 +70,9 @@
         </div>
       </div> 
 </div>
-
+<div class="container">
+      <div id="search-overlay__results"></div>
+    </div>
 <?php wp_footer(); ?>
 
 </body>
