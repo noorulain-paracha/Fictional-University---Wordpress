@@ -58,8 +58,8 @@ function university_files() {
     } else {
         
     wp_enqueue_script('over-vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.1fa169383e64a33bfd0c.js'),NULL,'1.0',true);
-    wp_enqueue_script('main-university-js', get_theme_file_uri('/bundled-assets/scripts.d48bd623c6a71833ce83.js'),NULL,'1.0',true);
-    wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.d48bd623c6a71833ce83.css'));
+    wp_enqueue_script('main-university-js', get_theme_file_uri('/bundled-assets/scripts.3f194fed7c9624b8f1b7.js'),NULL,'1.0',true);
+    wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.3f194fed7c9624b8f1b7.css'));
     }
 
     wp_localize_script('main-university-js', 'universityData', array(
