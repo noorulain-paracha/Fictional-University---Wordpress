@@ -1,7 +1,7 @@
 import $ from "jquery"
 
 class Search {
-  // 1. describe and create/initiate our object
+  // 1. describe and create/initiate   our object
   constructor() {
     this.addSearchHTML()
     this.resultsDiv = $("#search-overlay__results")
